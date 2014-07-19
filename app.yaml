@@ -14,6 +14,9 @@ handlers:
 - url: /(.+\.php)$
   script: \1
 
+- url: /
+  script: index.php
+  
 skip_files:
 - ^(.*/)?\.zip$
 - ^(.*/)?\.bat$
